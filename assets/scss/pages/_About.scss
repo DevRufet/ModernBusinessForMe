@@ -1,0 +1,374 @@
+// hero_about_ab1 start
+#hero_about_ab1 {
+    max-width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_about_ab1_container {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_about_ab1_container_item1 {
+    max-width: 600px;
+    min-height: 96px;
+    color: #212529;
+    font-size: 26px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero_about_ab1_container_item2 {
+    max-width: 600px;
+    min-height: 120px;
+    color: #6C757D;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero_about_ab1_container_item3 {
+    max-width: 600px;
+    min-height: 60px;
+
+}
+
+.hero_about_ab1_container_item3_btn {
+    width: 201px;
+    min-height: 60px;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.hero_about_ab1_container_item3_btn:hover {
+    max-width: 201px;
+    min-height: 60px;
+    border-radius: 10px;
+    background-color: #064db6;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.8s;
+
+}
+
+// hero_about_ab1 end
+@media only screen and (max-width:400px) {
+    .hero_about_ab1_container_item1 {
+        max-width: 600px;
+        min-height: 96px;
+        color: #212529;
+        font-size: 18px;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .hero_about_ab1_container_item2 {
+        max-width: 600px;
+        min-height: 120px;
+        color: #6C757D;
+        font-size: 15px;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+}
+// hero_about_ab2 start
+#hero_about_ab2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 584px;
+    background-color: #f8f9fa;
+}
+
+.hero_about_ab2_container {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 100%;
+    min-height: 392px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+
+
+}
+
+.hero_about_ab2_container_item1 {
+
+    max-width: 588px;
+    min-height: 392px;
+    border-radius: 10px;
+
+}
+
+.hero_about_ab2_container_item2 {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    max-width: 588px;
+    min-height: 392px;
+}
+
+.hero_about_ab2_container_item2_item1 {
+    max-width: 588px;
+    min-height: 40px;
+    font-size: 25px;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero_about_ab2_container_item2_item2 {
+    max-width: 588px;
+    min-height: 120px;
+    font-size: 20px;
+    color: #6C757D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero_about_ab2_container_item1_img {
+    max-width: 588px;
+    min-height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+// hero_about_ab2 responsive start
+@media only screen and (max-width:990px) {
+    .hero_about_ab2_container {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        min-height: 392px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero_about_ab2_container_item1 {
+
+        max-width: 588px;
+        min-height: 392px;
+        border-radius: 10px;
+        padding-top: 40px;
+    
+    }
+
+}
+
+// hero_about_ab2 responsive end
+// hero_about_ab2 end
+// hero_about_ab3 start
+#hero_about_ab3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 584px;
+    background-color: #ffffff;
+}
+
+.hero_about_ab3_container {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 100%;
+    min-height: 392px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+
+
+}
+
+// hero_about_ab3 responsive start
+@media only screen and (max-width:990px) {
+    .hero_about_ab3_container {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        min-height: 392px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+         
+    }
+
+}
+
+// hero_about_ab3 responsive end
+// hero_about_ab3 end
+// hero_about_ab4 start
+#hero_about_ab4 {
+    max-width: 100%;
+    min-height: 594px;
+    background-color: #f8f9fa;
+}
+
+.hero_about_ab4_container {
+    width: 100%;
+    min-height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+}
+
+.hero_about_ab4_container_item1 {
+    max-width: 1224px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        max-width: 100%;
+        min-height: 38px;
+        font-size: 32px;
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    p {
+        max-width: 100%;
+        min-height: 30px;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #6C757D;
+    }
+}
+
+.hero_about_ab4_container_item2 {
+    max-width: 1224px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.hero_about_ab4_container_item2_items {
+    max-width: 270px;
+    min-height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_about_ab4_container_item2_items_img {
+    max-width: 170px;
+    min-height: 140px;
+    border-radius: 100px;
+}
+
+.hero_about_ab4_container_item2_items_h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #212529;
+    max-width: 150px;
+    min-height: 24px;
+}
+
+.hero_about_ab4_container_item2_items_dv {
+    max-width: 100%;
+    min-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #6C757D;
+}
+
+// hero_about_ab4 responsive start
+//  @media only screen  and (max-width:1300px) {
+//      .hero_about_ab2_container {
+//          padding-left: 100px;
+//          padding-right: 50px;
+//         width: 100%;
+//         min-height: 392px;
+    
+//          display: grid;
+//          grid-template-columns: 1fr 1fr;
+//          grid-template-rows: 1fr;
+//         gap: 30px;
+    
+    
+//      }    
+//      .hero_about_ab3_container {
+//          padding-left: 100px;
+//          padding-right: 50px;
+//          width: 100%;
+//          min-height: 392px;
+//          display: grid;
+//          grid-template-columns: 1fr 1fr;
+//          grid-template-rows: 1fr;
+//          gap: 30px;
+    
+    
+//     }
+//  }
+@media only screen and (max-width:1200px) {
+    .hero_about_ab4_container_item2 {
+        max-width: 1224px;
+        min-height: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+
+    }
+}
+@media only screen and (max-width:600px) {
+    .hero_about_ab4_container_item2 {
+        max-width: 1224px;
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .hero_about_ab4_container_item2_items_img {
+        max-width: 100px;
+        min-height: 70px;
+        border-radius: 100px;
+    }
+    .hero_about_ab2_container_item1 {
+
+        max-width: 588px;
+        min-height: 200px;
+        border-radius: 10px;
+        padding-top: 30px;
+    
+    }
+}
+
+
+
+// hero_about_ab4 responsive end
+// hero_about_ab4 end

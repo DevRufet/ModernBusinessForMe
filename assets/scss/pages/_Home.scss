@@ -1,10 +1,11 @@
 // hero_home_ab1 section start
-#hero_home_ab1{
+#hero_home_ab1 {
     background-color: #212529;
     max-width: 100%;
     min-height: 554px;
 }
-.hero_home_ab1_container{
+
+.hero_home_ab1_container {
     width: 100%;
     min-height: 490px;
     display: flex;
@@ -12,14 +13,16 @@
     align-items: center;
     padding-left: 130px;
     padding-right: 130px;
-    
+
 }
-.hero_home_ab1_container_items{
+
+.hero_home_ab1_container_items {
     width: 636px;
     height: 380px;
-    
+
 }
-.hero_home_ab1_container_items1{
+
+.hero_home_ab1_container_items1 {
     max-width: 568px;
     min-height: 115px;
     font-size: 30px;
@@ -27,7 +30,8 @@
     color: #FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab1_container_items2{
+
+.hero_home_ab1_container_items2 {
     max-width: 588px;
     min-height: 90px;
     margin-bottom: 10px;
@@ -35,13 +39,15 @@
     color: #FFFFFF80;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab1_container_items3{
+
+.hero_home_ab1_container_items3 {
     max-width: 588px;
     min-height: 47px;
     margin-top: 10px;
-    
+
 }
-.hero_home_ab1_container_items3_btn1{
+
+.hero_home_ab1_container_items3_btn1 {
     width: 148px;
     height: 48px;
     background-color: #0D6EFD;
@@ -50,7 +56,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 10px;
 }
-.hero_home_ab1_container_items3_btn2{
+
+.hero_home_ab1_container_items3_btn2 {
     width: 148px;
     height: 48px;
     background-color: #212529;
@@ -61,43 +68,63 @@
     border-radius: 10px;
     margin-left: 20px;
 }
-.hero_home_ab1_container_card{
+
+.hero_home_ab1_container_card {
     width: 588px;
     height: 400px;
     border-radius: 10px;
-    background-color:#FFFFFF80;
+    background-color: #FFFFFF80;
     font-size: 50px;
     color: #28282a61;
     display: flex;
-        justify-content: center;
-        align-items: center;
-      p{
-       
+    justify-content: center;
+    align-items: center;
+
+    p {
+
         margin-top: 0px;
 
- }
+    }
 }
-.hero_home_ab1_container_items3_btn1:hover{
+
+.hero_home_ab1_container_items3_btn1:hover {
     background-color: #0948a6;
     transition: 1s;
     cursor: pointer;
 }
-.hero_home_ab1_container_items3_btn2:hover{
+
+.hero_home_ab1_container_items3_btn2:hover {
     background-color: #FFFFFF;
     color: #212529;
     transition: 1s;
     cursor: pointer;
 }
+.home_btn{
+    width: 80px;
+     min-height: 37px;
+      border-radius: 10px;
+       background-color: #0D6EFD;
+        border: 1px solid #FFFFFF;
+         color: #FFFFFF;
+         font-weight: bold;
+        
+}
+.home_btn:hover{
+    background-color: #FFFFFF;
+    color: #212529;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
 // hero_home_1 section responsive start
-@media only screen and (max-width:1200px)
-{
-    .hero_home_ab1_container_card{
+@media only screen and (max-width:1200px) {
+    .hero_home_ab1_container_card {
         display: none;
     }
 }
-@media only screen and (max-width:320px)
-{
-    .hero_home_ab1_container{
+
+@media only screen and (max-width:320px) {
+    .hero_home_ab1_container {
         width: 100%;
         min-height: 490px;
         display: flex;
@@ -105,14 +132,16 @@
         align-items: center;
         padding-left: 30px;
         padding-right: 30px;
-        
+
     }
-    .hero_home_ab1_container_items{
-       width: 320px;
-       height: 380px;
-        
+
+    .hero_home_ab1_container_items {
+        width: 320px;
+        height: 380px;
+
     }
-    .hero_home_ab1_container_items1{
+
+    .hero_home_ab1_container_items1 {
         max-width: 300px;
         text-align: center;
         min-height: 115px;
@@ -121,7 +150,8 @@
         color: #FFFFFF;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab1_container_items2{
+
+    .hero_home_ab1_container_items2 {
         max-width: 300px;
         text-align: center;
         min-height: 90px;
@@ -130,7 +160,8 @@
         color: #FFFFFF80;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab1_container_items3{
+
+    .hero_home_ab1_container_items3 {
         max-width: 300px;
         min-height: 47px;
         margin-top: 10px;
@@ -139,9 +170,10 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        
+
     }
-    .hero_home_ab1_container_items3_btn1{
+
+    .hero_home_ab1_container_items3_btn1 {
         width: 148px;
         height: 48px;
         background-color: #0D6EFD;
@@ -150,7 +182,8 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 10px;
     }
-    .hero_home_ab1_container_items3_btn2{
+
+    .hero_home_ab1_container_items3_btn2 {
         width: 148px;
         height: 48px;
         background-color: #212529;
@@ -159,13 +192,13 @@
         font-size: 20px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 10px;
-        margin-left: 0px;  
-        
+        margin-left: 0px;
+
     }
 }
-@media only screen  and (max-width:600px)
-{
-    .hero_home_ab1_container{
+
+@media only screen and (max-width:600px) {
+    .hero_home_ab1_container {
         width: 100%;
         min-height: 490px;
         display: flex;
@@ -173,14 +206,16 @@
         align-items: center;
         padding-left: 30px;
         padding-right: 30px;
-        
+
     }
-    .hero_home_ab1_container_items{
-       width: 500px;
-       height: 380px;
-        
+
+    .hero_home_ab1_container_items {
+        width: 500px;
+        height: 380px;
+
     }
-    .hero_home_ab1_container_items1{
+
+    .hero_home_ab1_container_items1 {
         max-width: 500px;
         text-align: center;
         min-height: 115px;
@@ -189,7 +224,8 @@
         color: #FFFFFF;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab1_container_items2{
+
+    .hero_home_ab1_container_items2 {
         max-width: 500px;
         text-align: center;
         min-height: 90px;
@@ -198,7 +234,8 @@
         color: #FFFFFF80;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab1_container_items3{
+
+    .hero_home_ab1_container_items3 {
         max-width: 500px;
         min-height: 47px;
         margin-top: 10px;
@@ -207,9 +244,10 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        
+
     }
-    .hero_home_ab1_container_items3_btn1{
+
+    .hero_home_ab1_container_items3_btn1 {
         width: 148px;
         height: 48px;
         background-color: #0D6EFD;
@@ -218,7 +256,8 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 10px;
     }
-    .hero_home_ab1_container_items3_btn2{
+
+    .hero_home_ab1_container_items3_btn2 {
         width: 148px;
         height: 48px;
         background-color: #212529;
@@ -227,19 +266,21 @@
         font-size: 20px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 10px;
-        margin-left: 0px;  
-        
+        margin-left: 0px;
+
     }
 }
+
 // hero_home_ab1 section responsive end
 // hero_home_ab1 section end
 // hero_home_ab2 section start
-#hero_home_ab2{
+#hero_home_ab2 {
     max-width: 100%;
     min-height: 458px;
     background-color: #FFFFFF;
 }
-.hero_home_ab2_container{
+
+.hero_home_ab2_container {
     width: 100%;
     min-height: 336px;
     display: flex;
@@ -249,55 +290,65 @@
     padding-left: 120px;
     padding-right: 120px;
 }
-.hero_home_ab2_container_items1{
+
+.hero_home_ab2_container_items1 {
     max-width: 423px;
     min-height: 336px;
     font-size: 23px;
     color: #212529;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab2_container_items2{
+
+.hero_home_ab2_container_items2 {
     max-width: 850px;
     min-height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.hero_home_ab2_container_items2_item1{
+
+.hero_home_ab2_container_items2_item1 {
     max-width: 423px;
     min-height: 144px;
 }
-.hero_home_ab2_container_items2_item2{
+
+.hero_home_ab2_container_items2_item2 {
     max-width: 423px;
     min-height: 144px;
 }
-.hero_home_ab2_container_items2_item3{
+
+.hero_home_ab2_container_items2_item3 {
     max-width: 423px;
     min-height: 144px;
 }
-.hero_home_ab2_container_items2_item4{
+
+.hero_home_ab2_container_items2_item4 {
     max-width: 423px;
     min-height: 144px;
 }
-.hero_home_ab2_container_items2_item1_item1{
+
+.hero_home_ab2_container_items2_item1_item1 {
     max-width: 375px;
     min-height: 24px;
     color: #0D6EFD;
     font-size: 40px;
 }
-.hero_home_ab2_container_items2_item1_item2{
+
+.hero_home_ab2_container_items2_item1_item2 {
     max-width: 375px;
     min-height: 38px;
     font-size: 13px;
 }
-.hero_home_ab2_container_items2_item1_item3{
+
+.hero_home_ab2_container_items2_item1_item3 {
     max-width: 375px;
     min-height: 50px;
     font-size: 16px;
 }
+
 // hero_home_ab2 section responsive start
-@media only screen and (max-width:768px){
-    .hero_home_ab2_container{
+@media only screen and (max-width:768px) {
+    .hero_home_ab2_container {
         width: 100%;
         min-height: 336px;
         display: flex;
@@ -308,61 +359,69 @@
         padding-right: 120px;
         flex-direction: column;
     }
-    .hero_home_ab2_container_items1{
-       
+
+    .hero_home_ab2_container_items1 {
+
         max-width: 423px;
         min-height: 76px;
         font-size: 18px;
-        
+
         color: #212529;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab2_container_items2{
+
+    .hero_home_ab2_container_items2 {
         max-width: 850px;
         min-height: 300px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    } 
+    }
 }
-@media only screen and (max-width:500px){
-    .hero_home_ab2_container{
+
+@media only screen and (max-width:500px) {
+    .hero_home_ab2_container {
         width: 100%;
         min-height: 336px;
         display: flex;
         justify-content: center;
-        align-items: start;
-        padding-top: 70px;
-        padding-left: 120px;
-        padding-right: 120px;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 60px;
+        padding-right:60px;
         flex-direction: column;
+        padding-bottom: 20px;
     }
-    .hero_home_ab2_container_items1{
-       
+
+    .hero_home_ab2_container_items1 {
+
         max-width: 423px;
         min-height: 76px;
         font-size: 15px;
-        
+
         color: #212529;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab2_container_items2{
+
+    .hero_home_ab2_container_items2 {
         max-width: 850px;
         min-height: 300px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-    } 
+    }
 }
+
 // hero_home_ab2 section responsive end
 // hero_home_ab2 section end
 // hero_home_ab3 section start
-#hero_home_ab3{
+#hero_home_ab3 {
     max-width: 100%;
     min-height: 364px;
     background-color: #F8F9FA;
 }
-.hero_home_ab3_container{
+
+.hero_home_ab3_container {
     width: 100%;
     min-height: 180px;
     display: flex;
@@ -371,64 +430,71 @@
     flex-direction: column;
     padding-top: 100px;
 }
-.hero_home_ab3_container_item1{
+
+.hero_home_ab3_container_item1 {
     max-width: 694px;
     min-height: 108px;
-    color:  #212529;
+    color: #212529;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
     font-size: 24px;
     text-align: center;
 
 }
-.hero_home_ab3_container_item2{
+
+.hero_home_ab3_container_item2 {
     max-width: 694px;
     min-height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
+
 }
-.hero_home_ab3_container_item2_img{
+
+.hero_home_ab3_container_item2_img {
     border-radius: 100px;
     width: 40px;
     height: 40px;
     background-color: #212529;
     font-size: 10px;
     color: #F8F9FA;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.hero_home_ab3_container_item2_item{
+
+.hero_home_ab3_container_item2_item {
     font-size: 18px;
     font-weight: bold;
     color: #212529;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 // hero_home_ab3 section responsive start
 
 // hero_home_ab3 section responsive end
 // hero_home_ab3 section end
 // hero_home_ab4 section start
-#hero_home_ab4{
+#hero_home_ab4 {
     max-width: 100%;
     min-height: 1050px;
     background-color: #FFFFFF;
 }
-.hero_home_ab4_container{
+
+.hero_home_ab4_container {
     width: 100%;
     min-height: 920px;
-     display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 50px;
-      margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
 }
-.hero_home_ab4_container_item1{
+
+.hero_home_ab4_container_item1 {
     max-width: 636px;
     min-height: 155px;
     display: flex;
@@ -436,13 +502,15 @@
     align-items: center;
     flex-direction: column;
 }
-.hero_home_ab4_container_item1_item1{
+
+.hero_home_ab4_container_item1_item1 {
     max-width: 588px;
     min-height: 40px;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item1_item2{
+
+.hero_home_ab4_container_item1_item2 {
     max-width: 588px;
     min-height: 60px;
     font-size: 20px;
@@ -450,7 +518,8 @@
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item2{
+
+.hero_home_ab4_container_item2 {
     max-width: 1272px;
     min-height: 505px;
     display: grid;
@@ -458,27 +527,32 @@
     grid-template-rows: 1fr;
     gap: 30px;
 }
-.hero_home_ab4_container_item2_card{
+
+.hero_home_ab4_container_item2_card {
     max-width: 375px;
     min-height: 500px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
-    
+
 }
-.hero_home_ab4_container_item2_card_item1{
+
+.hero_home_ab4_container_item2_card_item1 {
     max-width: 375px;
     min-height: 200px;
     background-image: url("https://dummyimage.com/600x350/ced4da/6c757d");
     background-size: cover;
     border-radius: 10px;
 }
-.hero_home_ab4_container_item2_card_item2{
+
+.hero_home_ab4_container_item2_card_item2 {
     max-width: 375px;
     min-height: 30px;
     padding-left: 10px;
-    p{
+    padding-top: 10px;
+
+    p {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -490,21 +564,24 @@
         border-radius: 10px;
         background-color: #0948a6;
     }
-    
+
 }
-.hero_home_ab4_container_item2_card_item3{
+
+.hero_home_ab4_container_item2_card_item3 {
     max-width: 375px;
     min-height: 50px;
-    color: #212529; 
+    color: #212529;
     padding-left: 10px;
 }
-.hero_home_ab4_container_item2_card_item4{
+
+.hero_home_ab4_container_item2_card_item4 {
     max-width: 375px;
     min-height: 70px;
     font-size: 20px;
     padding-left: 10px;
 }
-.hero_home_ab4_container_item2_card_item5{
+
+.hero_home_ab4_container_item2_card_item5 {
     max-width: 375px;
     min-height: 80px;
     display: flex;
@@ -512,138 +589,166 @@
     padding-top: 10px;
     padding-left: 10px;
 }
-.hero_home_ab4_container_item2_card_item5_item1{
-    max-width: 50px;
-    min-height: 20px;
-    border-radius: 50px;
+
+.hero_home_ab4_container_item2_card_item5_item1 {
+    max-width: 70px;
+    min-height: 50px;
+    border-radius: 100px;
     background-color: #6C757D;
     color: #FFFFFF;
     display: flex;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 21px;
 }
-.hero_home_ab4_container_item2_card_item5_item2{
-display: flex;
-flex-direction: column;
-justify-content: center;
+
+.hero_home_ab4_container_item2_card_item5_item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.hero_home_ab4_container_item3{
+
+.hero_home_ab4_container_item3 {
     max-width: 1224px;
+    width: 100%;
     min-height: 162px;
     border-radius: 10px;
-    background-color:#0D6EFD ;
+    background-color: #0D6EFD;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero_home_ab4_container_item3_items{
+
+.hero_home_ab4_container_item3_items {
     max-width: 1224px;
+    width: 100%;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+   padding-left: 50px;
+   padding-right: 50px;
+
+
 }
-.hero_home_ab4_container_item3_items1_item1{
+
+.hero_home_ab4_container_item3_items1_item1 {
     max-width: 422px;
     min-height: 42px;
     font-size: 28px;
     color: #FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item3_items1_item2{
+
+.hero_home_ab4_container_item3_items1_item2 {
     max-width: 422px;
     color: #FFFFFF80;
     min-height: 26px;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item3_items2_item1{
+
+.hero_home_ab4_container_item3_items2_item1 {
     max-width: 350px;
     min-height: 37px;
-    
+
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item3_items2_item2{
+
+.hero_home_ab4_container_item3_items2_item2 {
     max-width: 350px;
     min-height: 22px;
     color: #FFFFFF80;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.hero_home_ab4_container_item3_items1{
+
+.hero_home_ab4_container_item3_items1 {
     max-width: 394px;
     min-height: 80px;
-    margin-right: 230px;
+    
 }
-.hero_home_ab4_container_item3_items2{
+
+.hero_home_ab4_container_item3_items2 {
     max-width: 394px;
     min-height: 80px;
-    margin-left: 230px;
+    // margin-left: 230px;
 }
+.home_input{
+    border-radius: 10px;
+     width: 253px; 
+     min-height: 37px;
+ 
+}
+
 // hero_home_ab4 section responsive start
 @media only screen and (max-width:1200px) {
-    .hero_home_ab4_container_item3{
+    .hero_home_ab4_container_item3 {
         max-width: 1224px;
         min-height: 162px;
         border-radius: 10px;
-        background-color:#0D6EFD ;
+        background-color: #0D6EFD;
+
+    }
+    .hero_home_ab4_container_item3_items2 {
+        max-width: 394px;
+        min-height: 80px;
        
     }
-    
-    
-    .hero_home_ab4_container_item3_items1_item1{
+
+    .hero_home_ab4_container_item3_items1_item1 {
         max-width: 422px;
         min-height: 42px;
         font-size: 28px;
         color: #FFFFFF;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab4_container_item3_items1_item2{
+
+    .hero_home_ab4_container_item3_items1_item2 {
         max-width: 422px;
         color: #FFFFFF80;
         min-height: 26px;
         font-size: 16px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab4_container_item3_items2_item1{
+
+    .hero_home_ab4_container_item3_items2_item1 {
         max-width: 350px;
         min-height: 37px;
-        
+
         font-size: 16px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab4_container_item3_items2_item2{
+
+    .hero_home_ab4_container_item3_items2_item2 {
         max-width: 350px;
         min-height: 22px;
         color: #FFFFFF80;
         font-size: 14px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .hero_home_ab4_container_item3_items1{
+
+    .hero_home_ab4_container_item3_items1 {
         max-width: 394px;
         min-height: 80px;
-        
+
     }
-    .hero_home_ab4_container_item3_items2{
-        max-width: 394px;
-        min-height: 80px;
-        
-    }
-    .hero_home_ab4_container_item3_items{
+
+    
+
+    .hero_home_ab4_container_item3_items {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 }
-@media only screen and (max-width:995px){
-    .hero_home_ab4_container_item2{
+
+@media only screen and (max-width:995px) {
+    .hero_home_ab4_container_item2 {
         max-width: 1272px;
         min-height: 505px;
         display: grid;
@@ -651,7 +756,34 @@ justify-content: center;
         grid-template-columns: 1fr;
         gap: 30px;
     }
+    .hero_home_ab4_container_item3 {
+        max-width: 377px;
+        width: 100%;
+        min-height: 162px;
+        border-radius: 10px;
+        background-color: #0D6EFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+    .home_input{
+        border-radius: 10px;
+         width: 160px; 
+         min-height: 37px;
+     
+    }
 }
-
+@media only screen and (max-width:370px) {
+    
+    
+    .home_input{
+        border-radius: 10px;
+         width: 100px; 
+         min-height: 37px;
+     
+    }
+}
 // hero_home_ab4 section responsive end
 // hero_home_ab4 section end

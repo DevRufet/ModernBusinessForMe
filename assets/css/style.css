@@ -110,6 +110,56 @@ img {
   display: none;
 }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: #212529;
+  color: rgba(255, 255, 255, 0.5490196078);
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #212529;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #212529;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .container_btn {
     display: flex;
@@ -160,6 +210,917 @@ img {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+  }
+}
+#hero_about_ab1 {
+  max-width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_about_ab1_container {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_about_ab1_container_item1 {
+  max-width: 600px;
+  min-height: 96px;
+  color: #212529;
+  font-size: 26px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero_about_ab1_container_item2 {
+  max-width: 600px;
+  min-height: 120px;
+  color: #6C757D;
+  font-size: 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero_about_ab1_container_item3 {
+  max-width: 600px;
+  min-height: 60px;
+}
+
+.hero_about_ab1_container_item3_btn {
+  width: 201px;
+  min-height: 60px;
+  border-radius: 10px;
+  background-color: #0D6EFD;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.hero_about_ab1_container_item3_btn:hover {
+  max-width: 201px;
+  min-height: 60px;
+  border-radius: 10px;
+  background-color: #064db6;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.8s;
+}
+
+@media only screen and (max-width: 400px) {
+  .hero_about_ab1_container_item1 {
+    max-width: 600px;
+    min-height: 96px;
+    color: #212529;
+    font-size: 18px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .hero_about_ab1_container_item2 {
+    max-width: 600px;
+    min-height: 120px;
+    color: #6C757D;
+    font-size: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+#hero_about_ab2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 584px;
+  background-color: #f8f9fa;
+}
+
+.hero_about_ab2_container {
+  padding-left: 100px;
+  padding-right: 50px;
+  width: 100%;
+  min-height: 392px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.hero_about_ab2_container_item1 {
+  max-width: 588px;
+  min-height: 392px;
+  border-radius: 10px;
+}
+
+.hero_about_ab2_container_item2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 588px;
+  min-height: 392px;
+}
+
+.hero_about_ab2_container_item2_item1 {
+  max-width: 588px;
+  min-height: 40px;
+  font-size: 25px;
+  color: #212529;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero_about_ab2_container_item2_item2 {
+  max-width: 588px;
+  min-height: 120px;
+  font-size: 20px;
+  color: #6C757D;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero_about_ab2_container_item1_img {
+  max-width: 588px;
+  min-height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+  .hero_about_ab2_container {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    min-height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_about_ab2_container_item1 {
+    max-width: 588px;
+    min-height: 392px;
+    border-radius: 10px;
+    padding-top: 40px;
+  }
+}
+#hero_about_ab3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 584px;
+  background-color: #ffffff;
+}
+
+.hero_about_ab3_container {
+  padding-left: 100px;
+  padding-right: 50px;
+  width: 100%;
+  min-height: 392px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 990px) {
+  .hero_about_ab3_container {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    min-height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+#hero_about_ab4 {
+  max-width: 100%;
+  min-height: 594px;
+  background-color: #f8f9fa;
+}
+
+.hero_about_ab4_container {
+  width: 100%;
+  min-height: 405px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px;
+}
+
+.hero_about_ab4_container_item1 {
+  max-width: 1224px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero_about_ab4_container_item1 h2 {
+  max-width: 100%;
+  min-height: 38px;
+  font-size: 32px;
+  color: #212529;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero_about_ab4_container_item1 p {
+  max-width: 100%;
+  min-height: 30px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #6C757D;
+}
+
+.hero_about_ab4_container_item2 {
+  max-width: 1224px;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.hero_about_ab4_container_item2_items {
+  max-width: 270px;
+  min-height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_about_ab4_container_item2_items_img {
+  max-width: 170px;
+  min-height: 140px;
+  border-radius: 100px;
+}
+
+.hero_about_ab4_container_item2_items_h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: #212529;
+  max-width: 150px;
+  min-height: 24px;
+}
+
+.hero_about_ab4_container_item2_items_dv {
+  max-width: 100%;
+  min-height: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #6C757D;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero_about_ab4_container_item2 {
+    max-width: 1224px;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero_about_ab4_container_item2 {
+    max-width: 1224px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero_about_ab4_container_item2_items_img {
+    max-width: 100px;
+    min-height: 70px;
+    border-radius: 100px;
+  }
+  .hero_about_ab2_container_item1 {
+    max-width: 588px;
+    min-height: 200px;
+    border-radius: 10px;
+    padding-top: 30px;
+  }
+}
+#hero_contact_ab1 {
+  max-width: 100%;
+  min-height: 1125px;
+  background-color: #ffffff;
+}
+
+.hero_contact_ab1_container {
+  width: 100%;
+  min-height: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.hero_contact_ab1_container_item1 {
+  width: 1224px;
+  min-height: 740px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_contact_ab1_container_item2 {
+  width: 1224px;
+  min-height: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_contact_ab1_container_item1_item1 {
+  max-width: 588px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero_contact_ab1_container_item1_item2 {
+  max-width: 588px;
+  min-height: 446px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_contact_ab1_container_item1_item1_icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #0d6EFD;
+  font-size: 25px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_contact_ab1_container_item1_item1_h1 {
+  max-width: 100%;
+  min-height: 48px;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+}
+
+.hero_contact_ab1_container_item1_item1_p {
+  max-width: 100%;
+  min-height: 30px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #6c757d;
+}
+
+.hero_contact_ab1_container_item1_item2_input {
+  width: 588px;
+  color: #212529;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  min-height: 58px;
+  border-radius: 10px;
+}
+
+.hero_contact_ab1_container_item1_item2_text {
+  width: 588px;
+  min-height: 160px;
+  color: #212529;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+}
+
+.hero_contact_ab1_container_item1_item2_btn {
+  width: 100%;
+  min-height: 47px;
+  border-radius: 10px;
+  background-color: #0d6EFD;
+  color: #ffffff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_contact_ab1_container_item2_item1 {
+  max-width: 318px;
+  min-height: 144px;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_contact_ab1_container_item2_item1_dv1 {
+  max-width: 48px;
+  min-height: 48px;
+  background-color: #0d6EFD;
+  font-size: 24px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hero_contact_ab1_container_item2_item1_dv2 {
+  max-width: 270px;
+  min-height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+}
+
+.hero_contact_ab1_container_item2_item1_dv3 {
+  max-width: 270px;
+  min-height: 48px;
+  color: #6c757d;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media only screen and (max-width: 1250px) {
+  .hero_contact_ab1_container {
+    width: 100%;
+    min-height: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .hero_contact_ab1_container_item1 {
+    max-width: 1000px;
+    min-height: 740px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item2 {
+    max-width: 1000px;
+    min-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item1_item1 {
+    max-width: 588px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_contact_ab1_container_item1_item2 {
+    max-width: 588px;
+    min-height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item1_item1_icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item1_item1_h1 {
+    max-width: 100%;
+    min-height: 48px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item1_item1_p {
+    max-width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #6c757d;
+  }
+  .hero_contact_ab1_container_item1_item2_input {
+    width: 588px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    min-height: 58px;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_text {
+    width: 588px;
+    min-height: 160px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_btn {
+    width: 100%;
+    min-height: 47px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item2_item1 {
+    max-width: 318px;
+    min-height: 144px;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv1 {
+    max-width: 48px;
+    min-height: 48px;
+    background-color: #0d6EFD;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv2 {
+    max-width: 270px;
+    min-height: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item2_item1_dv3 {
+    max-width: 270px;
+    min-height: 48px;
+    color: #6c757d;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .hero_contact_ab1_container {
+    width: 100%;
+    min-height: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .hero_contact_ab1_container_item1 {
+    max-width: 800px;
+    min-height: 740px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item2 {
+    max-width: 800px;
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .hero_contact_ab1_container {
+    width: 100%;
+    min-height: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .hero_contact_ab1_container_item1 {
+    max-width: 600px;
+    min-height: 740px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item2 {
+    max-width: 600px;
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero_contact_ab1_container {
+    width: 100%;
+    min-height: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .hero_contact_ab1_container_item1 {
+    max-width: 400px;
+    min-height: 740px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item2 {
+    max-width: 400px;
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hero_contact_ab1_container_item1_item1 {
+    max-width: 588px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_contact_ab1_container_item1_item2 {
+    max-width: 588px;
+    min-height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item1_item1_icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item1_item1_h1 {
+    max-width: 100%;
+    min-height: 48px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item1_item1_p {
+    max-width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #6c757d;
+  }
+  .hero_contact_ab1_container_item1_item2_input {
+    width: 350px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    min-height: 58px;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_text {
+    width: 350px;
+    min-height: 160px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_btn {
+    width: 100%;
+    min-height: 47px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item2_item1 {
+    max-width: 318px;
+    min-height: 144px;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv1 {
+    max-width: 48px;
+    min-height: 48px;
+    background-color: #0d6EFD;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv2 {
+    max-width: 270px;
+    min-height: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item2_item1_dv3 {
+    max-width: 270px;
+    min-height: 48px;
+    color: #6c757d;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero_contact_ab1_container {
+    width: 100%;
+    min-height: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .hero_contact_ab1_container_item1 {
+    max-width: 300px;
+    min-height: 740px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item2 {
+    max-width: 300px;
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hero_contact_ab1_container_item1_item1 {
+    max-width: 588px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_contact_ab1_container_item1_item2 {
+    max-width: 588px;
+    min-height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero_contact_ab1_container_item1_item1_icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item1_item1_h1 {
+    max-width: 100%;
+    min-height: 48px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item1_item1_p {
+    max-width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #6c757d;
+  }
+  .hero_contact_ab1_container_item1_item2_input {
+    width: 300px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    min-height: 58px;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_text {
+    width: 300px;
+    min-height: 160px;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item1_item2_btn {
+    width: 100%;
+    min-height: 47px;
+    border-radius: 10px;
+    background-color: #0d6EFD;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_contact_ab1_container_item2_item1 {
+    max-width: 318px;
+    min-height: 144px;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv1 {
+    max-width: 48px;
+    min-height: 48px;
+    background-color: #0d6EFD;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .hero_contact_ab1_container_item2_item1_dv2 {
+    max-width: 270px;
+    min-height: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .hero_contact_ab1_container_item2_item1_dv3 {
+    max-width: 270px;
+    min-height: 48px;
+    color: #6c757d;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 }
 #hero_home_ab1 {
@@ -255,6 +1216,23 @@ img {
   color: #212529;
   transition: 1s;
   cursor: pointer;
+}
+
+.home_btn {
+  width: 80px;
+  min-height: 37px;
+  border-radius: 10px;
+  background-color: #0D6EFD;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.home_btn:hover {
+  background-color: #FFFFFF;
+  color: #212529;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -493,11 +1471,12 @@ img {
     min-height: 336px;
     display: flex;
     justify-content: center;
-    align-items: start;
-    padding-top: 70px;
-    padding-left: 120px;
-    padding-right: 120px;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     flex-direction: column;
+    padding-bottom: 20px;
   }
   .hero_home_ab2_container_items1 {
     max-width: 423px;
@@ -640,6 +1619,7 @@ img {
   max-width: 375px;
   min-height: 30px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 .hero_home_ab4_container_item2_card_item2 p {
   display: flex;
@@ -678,15 +1658,15 @@ img {
 }
 
 .hero_home_ab4_container_item2_card_item5_item1 {
-  max-width: 50px;
-  min-height: 20px;
-  border-radius: 50px;
+  max-width: 70px;
+  min-height: 50px;
+  border-radius: 100px;
   background-color: #6C757D;
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 21px;
 }
 
 .hero_home_ab4_container_item2_card_item5_item2 {
@@ -697,6 +1677,7 @@ img {
 
 .hero_home_ab4_container_item3 {
   max-width: 1224px;
+  width: 100%;
   min-height: 162px;
   border-radius: 10px;
   background-color: #0D6EFD;
@@ -707,10 +1688,13 @@ img {
 
 .hero_home_ab4_container_item3_items {
   max-width: 1224px;
+  width: 100%;
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .hero_home_ab4_container_item3_items1_item1 {
@@ -747,13 +1731,17 @@ img {
 .hero_home_ab4_container_item3_items1 {
   max-width: 394px;
   min-height: 80px;
-  margin-right: 230px;
 }
 
 .hero_home_ab4_container_item3_items2 {
   max-width: 394px;
   min-height: 80px;
-  margin-left: 230px;
+}
+
+.home_input {
+  border-radius: 10px;
+  width: 253px;
+  min-height: 37px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -762,6 +1750,10 @@ img {
     min-height: 162px;
     border-radius: 10px;
     background-color: #0D6EFD;
+  }
+  .hero_home_ab4_container_item3_items2 {
+    max-width: 394px;
+    min-height: 80px;
   }
   .hero_home_ab4_container_item3_items1_item1 {
     max-width: 422px;
@@ -794,10 +1786,6 @@ img {
     max-width: 394px;
     min-height: 80px;
   }
-  .hero_home_ab4_container_item3_items2 {
-    max-width: 394px;
-    min-height: 80px;
-  }
   .hero_home_ab4_container_item3_items {
     display: flex;
     flex-direction: column;
@@ -813,5 +1801,369 @@ img {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+  .hero_home_ab4_container_item3 {
+    max-width: 377px;
+    width: 100%;
+    min-height: 162px;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .home_input {
+    border-radius: 10px;
+    width: 160px;
+    min-height: 37px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .home_input {
+    border-radius: 10px;
+    width: 100px;
+    min-height: 37px;
+  }
+}
+#hero_pricing_ab1 {
+  max-width: 100%;
+  min-height: 838px;
+  background-color: #f8f9fa;
+}
+
+.hero_pricing_ab1_container {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero_pricing_ab1_container_item1 {
+  max-width: 1224px;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.hero_pricing_ab1_container_item1_item1 {
+  max-width: 1224px;
+  min-height: 48px;
+  color: #212529;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+}
+
+.hero_pricing_ab1_container_item1_item2 {
+  max-width: 1224px;
+  min-height: 30px;
+  color: #6c757d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.hero_pricing_ab1_container_item2 {
+  max-width: 1224px;
+  min-height: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+
+.hero_pricing_ab1_container_item2_card {
+  width: 375px;
+  min-height: 510px;
+  border: 1px solid grey;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero_pricing_ab1_container_item2_card_item1 {
+  max-width: 278px;
+  min-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #6c757d;
+}
+
+.hero_pricing_ab1_container_item2_card_item2 {
+  max-width: 278px;
+  min-height: 68px;
+  font-weight: bolder;
+}
+
+.hero_pricing_ab1_container_item2_card_item3_items1 {
+  max-width: 278px;
+  min-height: 24px;
+}
+
+.hero_pricing_ab1_container_item2_card_item3_items2 {
+  max-width: 278px;
+  min-height: 24px;
+  color: #6c757d;
+}
+
+.pricing_li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pricing_btn {
+  width: 278px;
+  min-height: 37px;
+  background-color: #FFFFFF;
+  border: 1px solid #0d6efd;
+  border-radius: 10px;
+  color: #0d6efd;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.pricing_btn:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: #085ddc;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero_pricing_ab1_container_item2 {
+    max-width: 1224px;
+    min-height: 510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .hero_pricing_ab1_container {
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero_pricing_ab1_container_item1 {
+    max-width: 1224px;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .hero_pricing_ab1_container_item1_item1 {
+    max-width: 1224px;
+    min-height: 48px;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+  }
+  .hero_pricing_ab1_container_item1_item2 {
+    max-width: 1224px;
+    min-height: 30px;
+    color: #6c757d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+  }
+  .hero_pricing_ab1_container_item2 {
+    max-width: 1224px;
+    min-height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero_pricing_ab1_container_item2_card {
+    max-width: 375px;
+    min-height: 510px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_pricing_ab1_container_item2_card_item1 {
+    max-width: 278px;
+    min-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #6c757d;
+  }
+  .hero_pricing_ab1_container_item2_card_item2 {
+    max-width: 278px;
+    min-height: 68px;
+    font-weight: bolder;
+  }
+  .hero_pricing_ab1_container_item2_card_item3_items1 {
+    max-width: 278px;
+    min-height: 24px;
+  }
+  .hero_pricing_ab1_container_item2_card_item3_items2 {
+    max-width: 278px;
+    min-height: 24px;
+    color: #6c757d;
+  }
+  .pricing_li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .pricing_btn {
+    max-width: 278px;
+    min-height: 37px;
+    background-color: #FFFFFF;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    color: #0d6efd;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .pricing_btn:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #085ddc;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero_pricing_ab1_container {
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero_pricing_ab1_container_item1 {
+    max-width: 1224px;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .hero_pricing_ab1_container_item1_item1 {
+    max-width: 1224px;
+    min-height: 48px;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+  }
+  .hero_pricing_ab1_container_item1_item2 {
+    max-width: 1224px;
+    min-height: 30px;
+    color: #6c757d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+  }
+  .hero_pricing_ab1_container_item2 {
+    max-width: 1224px;
+    min-height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero_pricing_ab1_container_item2_card {
+    width: 300px;
+    min-height: 510px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero_pricing_ab1_container_item2_card_item1 {
+    max-width: 278px;
+    min-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #6c757d;
+  }
+  .hero_pricing_ab1_container_item2_card_item2 {
+    max-width: 278px;
+    min-height: 68px;
+    font-weight: bolder;
+  }
+  .hero_pricing_ab1_container_item2_card_item3_items1 {
+    max-width: 278px;
+    min-height: 24px;
+  }
+  .hero_pricing_ab1_container_item2_card_item3_items2 {
+    max-width: 278px;
+    min-height: 24px;
+    color: #6c757d;
+  }
+  .pricing_li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .pricing_btn {
+    max-width: 278px;
+    min-height: 37px;
+    background-color: #FFFFFF;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    color: #0d6efd;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .pricing_btn:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #085ddc;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 400px) and (max-width: 320px) {
+  .hero_pricing_ab1_container_item2_card {
+    width: 250px;
+    min-height: 510px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pricing_btn {
+    max-width: 250px;
+    min-height: 37px;
+    background-color: #FFFFFF;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    color: #0d6efd;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */
